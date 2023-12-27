@@ -3,8 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 body {
+
     overflow-x: hidden;
 }
 
@@ -52,6 +54,7 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
+    justify-content: space-between;
 }
 nav ul li a {
     color: white;
@@ -377,7 +380,7 @@ footer p:nth-child(2) {
     display: block;
     width: 28px;
     height: 3px;
-    background-color: #dcc167;
+    background-color: red;
     border-radius: 3px;
     transition: all 0.5s;
   }
